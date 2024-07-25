@@ -65,10 +65,15 @@ To get started with the EVSE Controller Project:
    ```bash
    mkdir build
    cd build
-   cmake...
-   make
+   cmake .. -G "Visual Studio 17 2022" -A x64
    ```
-3. **setup The MQTT Broker using Mosquitto**
+   build the project via the created VS project or via this cmd:
+   ```bash 
+   cmake --build . --config Debug
+   ```
+   note: for now an error is given that the mosquitto lib can not be opened. for now, add manually. 
+   
+4. **setup The MQTT Broker using Mosquitto**
    - install mosquitto via there website
    - On windows, go to the cmd line and start the MQTT broker with the folowing cmd:
    ```bash
