@@ -93,4 +93,4 @@ After building the project, you can start using the EVSE Controller. Here's a br
 Make sure all required configurations are set up before running the application. Consult the class documentation for detailed instructions on using each component.
 
 ## Documentation
-The doxygen documentation can be found in the doc folder
+The doxygen documentation together with the documentation about the MQTT interface can be found in the doc folder.
